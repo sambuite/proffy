@@ -18,7 +18,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: var(--color-background);
+    background: ${({ theme: t }) => t.colors.background};
   }
 
   #root {
@@ -32,6 +32,7 @@ export default createGlobalStyle`
   button,
   textarea {
     font: 500 1.6rem Poppins;
+    color: ${({ theme: t }) => t.colors.textBase};
   }
 
   @media (min-width: 700px) {
