@@ -13,9 +13,6 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 90vw;
-  max-width: 700px;
-
   > img {
     width: 100%;
   }
@@ -116,18 +113,18 @@ export const Buttons = styled.div`
 
   a.study {
     background: ${({ theme: t }) => t.colors.primaryLighter};
-  }
 
-  a.study:hover {
-    background: ${({ theme: t }) => t.colors.primaryLight};
+    &:hover {
+      background: ${({ theme: t }) => t.colors.primaryLight};
+    }
   }
 
   a.give-classes {
     background: ${({ theme: t }) => t.colors.secundary};
-  }
 
-  a.give-classes:hover {
-    background: ${({ theme: t }) => t.colors.secundaryDark};
+    &:hover {
+      background: ${({ theme: t }) => t.colors.secundaryDark};
+    }
   }
 `;
 

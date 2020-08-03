@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
   Container,
@@ -15,7 +16,7 @@ import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import pupleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
-const Landing: React.FC = () => {
+const Landing = () => {
   return (
     <Container>
       <Wrapper>
@@ -27,15 +28,15 @@ const Landing: React.FC = () => {
         <img src={landingImg} alt="Plataforma de Estudos" />
 
         <Buttons>
-          <a href="" className="study">
+          <Link to="/study" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
+          </Link>
 
-          <a href="" className="give-classes">
+          <Link to="/give-classes" className="give-classes">
             <img src={giveClassesIcon} alt="Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </Buttons>
 
         <Connections>
