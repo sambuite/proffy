@@ -1,15 +1,18 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import GlobalStyles from "./styles/global";
-import Theme from "./styles/theme";
+import GlobalStyles from './styles/global';
+import Theme from './styles/theme';
 
-import Landing from "./pages/Landing";
+import Routes from './routes';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <Theme>
       <GlobalStyles />
-      <Landing />
+      <Router>
+        <Routes />
+      </Router>
     </Theme>
   );
 };
