@@ -9,8 +9,8 @@ declare module 'styled-components' {
       primary: string;
       primaryDark: string;
       primaryDarker: string;
-      secundary: string;
-      secundaryDark: string;
+      secondary: string;
+      secondaryDark: string;
       titleInPrimary: string;
       textInPrimary: string;
       textTitle: string;
