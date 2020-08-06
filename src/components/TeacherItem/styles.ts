@@ -59,7 +59,7 @@ export const Container = styled.article`
     button {
       width: 20rem;
       height: 5.6rem;
-      background: ${({ theme: t }) => t.colors.secundary};
+      background: ${({ theme: t }) => t.colors.secondary};
       color: ${({ theme: t }) => t.colors.buttonText};
       border: 0;
       border-radius: 0.8rem;
@@ -72,7 +72,7 @@ export const Container = styled.article`
     }
 
     button:hover {
-      background: ${({ theme: t }) => t.colors.secundaryDark};
+      background: ${({ theme: t }) => t.colors.secondaryDark};
     }
   }
 
