@@ -30,7 +30,6 @@ export const Container = styled.div`
 
   .header-content {
     width: 90%;
-    margin: 0 auto;
     position: relative;
     margin: 3.2rem auto;
 
@@ -38,6 +37,14 @@ export const Container = styled.div`
       font: 700 3.6rem Archivo;
       line-height: 4.2rem;
       color: ${({ theme: t }) => t.colors.titleInPrimary};
+    }
+
+    > p {
+      max-width: 30rem;
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      color: ${({ theme: t }) => t.colors.textInPrimary};
+      margin-top: 2.4rem;
     }
   }
 
