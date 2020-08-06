@@ -120,10 +120,10 @@ export const Buttons = styled.div`
   }
 
   a.give-classes {
-    background: ${({ theme: t }) => t.colors.secundary};
+    background: ${({ theme: t }) => t.colors.secondary};
 
     &:hover {
-      background: ${({ theme: t }) => t.colors.secundaryDark};
+      background: ${({ theme: t }) => t.colors.secondaryDark};
     }
   }
 `;
